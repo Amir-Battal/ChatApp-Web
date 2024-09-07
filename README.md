@@ -28,8 +28,7 @@
   
   <p align="center">
     <a href="#key-features">Key Features</a> •
-    <a href="#download">Download</a> •
-    <a href="#install">Install</a> •
+    <a href="#run-locally">Run Locally</a> •
     <a href="#credits">Credits</a> •
     <a href="#license">License</a>
   </p>
@@ -83,7 +82,7 @@ Clone the project
 To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
 
 ```bash
-  git clone https://github.com/Amir-Battal/mern-order-app-frontend.git
+  git clone https://github.com/Amir-Battal/ChatApp-Web.git
 ```
 
 ### Client Side // Frontend
@@ -155,3 +154,41 @@ Start the app
 ```bash
   nodemon start
 ```
+
+## Credits
+
+This software uses the following open source packages:
+
+- [Node.js](https://nodejs.org/)
+
+Frontend:
+- [React.js](https://react.dev/)
+- [Axios](https://www.npmjs.com/package/axios)
+- [Bootstrap](https://www.npmjs.com/package/bootstrap)
+- [ReactStrap](https://reactstrap.github.io/)
+- [Moment](https://www.npmjs.com/package/moment)
+- [socket.io-client](https://www.npmjs.com/package/socket.io-client)
+- [web-vitals](https://www.npmjs.com/package/web-vitals)
+
+Backend:
+- [Express.js](https://expressjs.com/)
+- [bcrypt](https://www.npmjs.com/package/bcrypt)
+- [cookie-parser](https://www.npmjs.com/package/cookie-parser)
+- [Dotenv](https://www.npmjs.com/package/dotenv)
+- [JWT](https://jwt.io/)
+- [Mongoose](https://mongoosejs.com/)
+- [Multer](https://www.npmjs.com/package/multer)
+- [Nodemon](https://nodemon.io/)
+- [Socket.io](https://socket.io/)
+
+
+## License
+
+Hsoub Academy [Hsoub Academy](https://academy.hsoub.com/)
+
+---
+
+> Linkedin [Amir Battal](https://www.linkedin.com/in/amir-battal/) &nbsp;&middot;&nbsp;
+> GitHub [@Amir-Battal](https://github.com/Amir-Battal) &nbsp;&middot;&nbsp;
+
+
