@@ -76,3 +76,82 @@
     
     ![Left Section](https://github.com/user-attachments/assets/ed13bf60-5a7a-4a74-a6f2-ca74e48a9951)
     </div>
+
+## Run Locally
+
+Clone the project
+To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
+
+```bash
+  git clone https://github.com/Amir-Battal/mern-order-app-frontend.git
+```
+
+# Client Side // Frontend
+Go to the project directory
+
+```bash
+  cd client
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+To run this project, you will need to add the following environment variables to your .env file
+
+General Variable
+`VNODE_PATH`
+
+WebSocket Variables
+`REACT_APP_SOCKET`
+
+Example
+```bash
+NODE_PATH=src/
+REACT_APP_SOCKET=ws://localhost:3001
+```
+
+Start the app
+
+```bash
+  npm start
+```
+
+# Server Side // Backend
+Go to the project directory
+
+```bash
+  cd server
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+To run this project, you will need to add the following environment variables to your .env file
+
+General Variable
+`PORT`
+
+MongoDb Variables
+`DB_URL`
+
+JWT Variables
+`JWT_SECRET`
+
+Example
+```bash
+PORT=3001
+DB_URL=mongodb://localhost:27017/chat
+JWT_SECRET=jwt-secret
+```
+
+Start the app
+
+```bash
+  nodemon start
+```
