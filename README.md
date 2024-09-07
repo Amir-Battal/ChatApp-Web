@@ -86,7 +86,7 @@ To clone and run this application, you'll need [Git](https://git-scm.com) and [N
   git clone https://github.com/Amir-Battal/mern-order-app-frontend.git
 ```
 
-# Client Side // Frontend
+### Client Side // Frontend
 Go to the project directory
 
 ```bash
@@ -119,7 +119,7 @@ Start the app
   npm start
 ```
 
-# Server Side // Backend
+### Server Side // Backend
 Go to the project directory
 
 ```bash
